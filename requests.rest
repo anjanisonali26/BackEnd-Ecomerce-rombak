@@ -1,0 +1,52 @@
+### Register User 1
+POST http://localhost:5000/users/register
+Content-Type: application/json
+
+{
+  "username": "anggaadmin80",
+  "email": "anggaadmin280@example.com",
+  "password": "passwoldd"
+}
+
+### Login User 2
+POST http://localhost:5000/users/login
+Content-Type: application/json
+
+{
+  "email": "anggaadmin14@example.com",
+  "password": "passwold"
+}
+
+### DELETE user
+DELETE http://localhost:5000/users/5f748641c4fcaf84b506a802
+Content-Type: application/json
+
+
+
+### POST power
+POST http://localhost:5000/create
+Content-Type: application/json
+access_token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Zjc3ZmE0OTFiZDBlMzI5YjhlOTQ4NTkiLCJpYXQiOjE2MDE2OTg1Mzh9.epnSCM2qQbU97ycxnRviiA5FgwPpHN7HD7N4kTWmc2c
+
+{
+  "tawnhallName":"Anggadong",
+}
+
+
+### PUT power
+PUT http://localhost:4000/townhallkuh/isi
+Content-Type: application/json
+access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1Zjc3ZmE0OTFiZDBlMzI5YjhlOTQ4NTkiLCJpYXQiOjE2MDE2OTg1Mzh9.epnSCM2qQbU97ycxnRviiA5FgwPpHN7HD7N4kTWmc2c
+
+{
+ "townhall":"jadiatuh",
+ "health":20,
+}
+
+### POST Building
+POST http://localhost:4000/building/send
+Content-Type:application/json
+access_token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZjZkYTVjYTYzYjNjYjFmZDFkNDhmY2QiLCJpYXQiOjE2MDEwMjM3NjF9._nK8zthuQmx_KZbyUdG_CXB8N8k3gDbfY0zN4QPnfsw
+{
+  "buildingName":"angga",
+}
